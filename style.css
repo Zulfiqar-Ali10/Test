@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    /* background-color: red; */
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+
+.header-sec2-main{
+    display: flex;
+    align-items: center;
+}
+
+.header-img img{
+    width: 260px;
+}
+
+.header-sec2-main h3{
+    font-size: 14px;
+    margin-right: 10px;
+    margin-bottom: 16px;
+}
+.header-sec2-main p{
+    font-size: 14px;
+    margin-left: 6px;
+}
+.header-sec2-main h5{
+  font-size: 14px;
+  margin-left: 6px;
+  margin-bottom: 12px;
+}
+.header-sec2-main img{
+    width: 12px;
+    margin-bottom: 20px;
+}
+.btn1{
+    border: 1px solid white;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: white;
+    margin-right: 25px;
+}
+.btn2{
+    border: 1px solid white;
+    background-color: white;
+    font-size: 12px;
+    font-weight: 700;
+    color: #FFB800;
+    padding: 6px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 20px 40px 0px #FFAE004A;
+}
+.btn2 img{
+    width: 10px;
+    margin-right: 4px;
+}
+/* /////////////////////////////////////////////////////// */
+
+.banner{
+    background-image: url(Group\ 1\ 1.png);
+    /* height: 500px; */
+}
+.headings h2{
+   font-size: 50px;
+   color: white;
+}
+.btn3{
+    padding: 1px 12px;
+    border: 1px solid wheat;
+    color: #FFB800;
+    font-weight: 700;
+}
+.btn4{
+    padding: 1px 12px;
+    border: 1px solid white;
+    color: grey;
+    font-weight: 700;
+    background-color: white;
+}
+.btn4 img{
+    margin-right: 5px;
+    width: 14px;
+}
+
+.btn3 img{
+    margin-right: 4px;
+}
+.input input{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 90px;
+    border: 1px solid 
+    #F5F5F5;
+    background-color: 
+    #F5F5F5;
+}
+.input button{
+    background-color: #F65900
+    ;
+    border: 1px solid #F65900
+    ;
+    padding: 6px 15px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.input button img{
+    margin-right: 5px;
+}
+.headings{
+    align-items: center;
+}
+.banner-sec1{
+    background-color: white;
+    width: 500px;
+    height: 120px;
+    padding: 10px;
+}
+.banner-sec1 .input{
+    margin-top: 30px;
+    
+}
+.headings{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    
+}
+.banner-imgs{
+    position: relative;
+}
+.banner-imgs img{
+    position: absolute;
+    width: 300px;
+    bottom: 0;
+
+}
+
+/* //////////////////////////////////////// */
+
+.last-section{
+    margin-top: 50px;
+}
+.last-sec img{
+    width: 320px;
+}
+
+
+@media  screen and(max-width: 505px){
+  .banner{
+    text-align: center;
+  }
+}
